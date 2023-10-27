@@ -109,6 +109,7 @@ void handleSet() {
     server.send(404, "text/plain", "error");
   }
 
+  String s = "success";
   String key = server.argName(0);
   String value = server.arg(0);
   Serial.println("set: " + key + " - " + value);
@@ -144,6 +145,7 @@ void handleSet() {
     File file = SPIFFS.open(fileStepperEnd, "w");
     file.println(String(close));
     file.close();
+    s = defaultClose;
   } else if (key == "newpos") {
     stepper.setCurrentPosition(value.toInt());
   } else if (key == "stepper") {
@@ -153,7 +155,7 @@ void handleSet() {
   } else {
     server.send(404, "text/plain", "error");
   }
-  server.send(200, "text/plain", "success");
+  server.send(200, "text/plain", s);
 }
 
 void handleTimeplan() {
@@ -169,20 +171,19 @@ void handleTimeplan() {
     newdoc["end"] = server.arg("end");
     newdoc["temp"] = server.arg("temp");
     newdoc["days"] = serialized(server.arg("days"));
->>>>>>> 5f764b5 (files added)
 
-doc[server.arg("n")] = newdoc;
-serializeJson(newdoc, Serial);
-Serial.println();
-serializeJson(doc, Serial);
-Serial.println();
-}
+    doc[server.arg("n")] = newdoc;
+    serializeJson(newdoc, Serial);
+    Serial.println();
+    serializeJson(doc, Serial);
+    Serial.println();
+  }
 
-File file = SPIFFS.open(fileTimeplan, "w");
-serializeJson(doc, file);
-file.close();
+  File file = SPIFFS.open(fileTimeplan, "w");
+  serializeJson(doc, file);
+  file.close();
 
-server.send(200, "text/plain", "success");
+  server.send(200, "text/plain", "success");
 }
 
 void setupServer() {
