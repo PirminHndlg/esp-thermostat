@@ -97,7 +97,7 @@ void handleGet() {
       Serial.println(s);
     } else if (value == "normaltemp") {
       File file = SPIFFS.open(fileNormtemp, "r");
-      s = file.readStringUntil('\r');
+      s = String(file.readStringUntil('\r').toFloat(), 1);
       file.close();
     } else if (value == "tempoffset") {
       s = String(tempOffset, 1);
