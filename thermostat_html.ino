@@ -30,30 +30,19 @@
 
 #define HALFSTEP 8
 #define utcOffsetInSeconds 7200
+#define defaultClose -20024
 
 DHT dht(DHTPIN, DHTTYPE);
 ESP8266WebServer server(80);
 AccelStepper stepper(HALFSTEP, motorPin1, motorPin3, motorPin2, motorPin4);
 
-<<<<<<< HEAD
-String processor(const String& var) {
-  if (var == "TEMPERATURE") {
-    return String(dht.readTemperature());
-  } else if (var == "HUMIDITY") {
-    return String(dht.readHumidity());
-  }
-  return String();
-}
 
-void setTemperature() {
-}
-=======
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", utcOffsetInSeconds);
 
 DynamicJsonDocument doc(1024);
 
-int close = -20024;
+int close = defaultClose;
 
 float temp = 18;
 float tempOffset = 0.0;
@@ -147,6 +136,11 @@ void handleSet() {
     file.close();
   } else if (key == "newend") {
     close = value.toInt();
+    File file = SPIFFS.open(fileStepperEnd, "w");
+    file.println(String(close));
+    file.close();
+  } else if (key == "defaultend") {
+    close = defaultClose;
     File file = SPIFFS.open(fileStepperEnd, "w");
     file.println(String(close));
     file.close();
