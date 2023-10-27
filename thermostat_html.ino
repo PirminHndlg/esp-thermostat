@@ -36,18 +36,16 @@ ESP8266WebServer server(80);
 AccelStepper stepper(HALFSTEP, motorPin1, motorPin3, motorPin2, motorPin4);
 
 <<<<<<< HEAD
-String processor(const String& var){
-  if(var == "TEMPERATURE"){
+String processor(const String& var) {
+  if (var == "TEMPERATURE") {
     return String(dht.readTemperature());
-  }
-  else if(var == "HUMIDITY"){
+  } else if (var == "HUMIDITY") {
     return String(dht.readHumidity());
   }
   return String();
 }
 
 void setTemperature() {
-
 }
 =======
 WiFiUDP ntpUDP;
@@ -179,18 +177,18 @@ void handleTimeplan() {
     newdoc["days"] = serialized(server.arg("days"));
 >>>>>>> 5f764b5 (files added)
 
-    doc[server.arg("n")] = newdoc;
-    serializeJson(newdoc, Serial);
-    Serial.println();
-    serializeJson(doc, Serial);
-    Serial.println();
-  }
+doc[server.arg("n")] = newdoc;
+serializeJson(newdoc, Serial);
+Serial.println();
+serializeJson(doc, Serial);
+Serial.println();
+}
 
-  File file = SPIFFS.open(fileTimeplan, "w");
-  serializeJson(doc, file);
-  file.close();
+File file = SPIFFS.open(fileTimeplan, "w");
+serializeJson(doc, file);
+file.close();
 
-  server.send(200, "text/plain", "success");
+server.send(200, "text/plain", "success");
 }
 
 void setupServer() {
@@ -203,6 +201,30 @@ void setupServer() {
 
   server.begin();  //Start server
   Serial.println("HTTP server started");
+}
+
+bool wifiLogin() {
+  WiFi.mode(WIFI_STA);
+  Serial.printf("Connecting to %s ", ssid);
+  WiFi.begin(ssid, password);
+
+  WiFi.setAutoReconnect(true);
+  WiFi.persistent(true);
+
+  unsigned long t = millis();
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+    if (t > 60000) {
+      return false;
+    }
+  }
+  Serial.println(" connected");
+  Serial.print("local IP:");
+  Serial.println(WiFi.localIP());
+
+  return true;
 }
 
 void setup() {
