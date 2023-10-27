@@ -33,6 +33,7 @@ const char calibrate_html[] PROGMEM = R"=====(
             background-color: rgba(238, 238, 238, 0.8);
             border: 1px solid black;
             border-radius: 5px;
+            margin: 2px;
             cursor: pointer;
         }
 
@@ -70,6 +71,8 @@ const char calibrate_html[] PROGMEM = R"=====(
         <td>
             <input id="newEndPos" type="number" step="25" min="-100000" max="100000">
             <button onclick="newEndPos()">save</button>
+            <br>
+            <button onclick="defaultEndPos()">default</button>
         </td>
     </tr>
     <tr>
@@ -118,6 +121,11 @@ const char calibrate_html[] PROGMEM = R"=====(
         document.getElementById("newEndPos").value = ""
     }
 
+    function defaultEndPos() {
+        document.getElementById('endPos').innerText = http('/set?defaultend=' + true)
+        document.getElementById("newEndPos").value = ""
+    }
+
     function newCurrentPos() {
         let newpos = document.getElementById("newCurrentPos").value
         http('/set?newpos=' + String(newpos))
@@ -140,7 +148,7 @@ const char calibrate_html[] PROGMEM = R"=====(
                 return 'error'
             }
 
-            if (true || withPrint) {
+            if (withPrint) {
                 console.log(request.responseText)
             }
             return request.responseText;
