@@ -151,6 +151,9 @@ void handleSet() {
   } else if (key == "stepper") {
     if (value == "stop") {
       stepper.moveTo(stepper.currentPosition());
+      File file = SPIFFS.open(fileCurrentStepperPos, "w");
+      file.println(String(stepper.currentPosition()));
+      file.close();
     }
   } else {
     server.send(404, "text/plain", "error");
