@@ -11,7 +11,7 @@ Meine Idee ist, dass ich wie bei gekauften Smarten Thermostaten das bestehende T
 
 
 ## Einstellungen auf lokaler Website
-<img src="/img/screenshot-main.png" width="45%"> <img src="/img/screenshot-stepper.png" width="45%">
+<img src="/img/screenshot-main.png" width="50%"> <img src="/img/screenshot-stepper.png" width="49%">
 Der ESP erzeugt eine Website, über welche sich dann Einstellungen für das Thermostat vornehmen lassen. Es ist möglich einen Zeitplan zu erstellen oder die Zieltemperatur für den Raum einzustellen. Die Offsettemperatur des Temperatursensors ist dafür da, dass es sein kann, dass die Temperatur direkt neben der Heizung höher ist als im restlichen Raum.
 
 ## Richtiger Anschluss und Gewinde eines Heizkörperventils ermitteln
