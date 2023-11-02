@@ -4,7 +4,7 @@ In Zeiten, in denen das Heizen ein Vermögen kostet, haben viele Haushalte sich 
 
 Deshalb habe ich mich dazu entschlossen, mein eigenes Thermostat zu bauen!
 
-Das Ergebnis des Bauprozesses möchte ich hier veröffentlichen.
+Das Ergebnis des Bauprozesses möchte ich hier veröffentlichen. Die Kosten für den Eigenbau sind ca. 10-15€
 
 ## Konzeptidee
 Meine Idee ist, dass ich wie bei gekauften Smarten Thermostaten das bestehende Thermostat ersetze. Allerdings nutzte ich aber den Metall-Anschluss-Ring des originalen Thermostats zur Befestigung. Mit einem kleinen Stepper Motor und einem Wemos D1 Mini Mikrocontroller, lässt sich der Bolzen der Heizung steuern, der beeinflusst, wie viel warmes Wasser in den Heizkörper fließt. Die Bewegung wird mit einer Schraube getätigt, welche vom Motor gedreht wird und somit zur Heizung, bzw. von ihr weg, bewegt wird.
