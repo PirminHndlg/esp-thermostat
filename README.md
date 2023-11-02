@@ -10,6 +10,11 @@ Das Ergebnis des Bauprozesses möchte ich hier veröffentlichen.
 Meine Idee ist, dass ich wie bei gekauften Smarten Thermostaten das bestehende Thermostat ersetze. Allerdings nutzte ich aber den Metall-Anschluss-Ring des originalen Thermostats zur Befestigung. Mit einem kleinen Stepper Motor und einem Wemos D1 Mini Mikrocontroller, lässt sich der Bolzen der Heizung steuern, der beeinflusst, wie viel warmes Wasser in den Heizkörper fließt. Die Bewegung wird mit einer Schraube getätigt, welche vom Motor gedreht wird und somit zur Heizung, bzw. von ihr weg, bewegt wird.
 
 
+## Einstellungen auf lokaler Website
+
+![Temperatur im Raum mit dem Thermostat steuern - auch mit Zeitplan für die einzelnen Tage der Woche](/img/screenshot-main.png)
+![Kalibrieren des Schrittmotors über die Webanwendung](/img/screenshot-stepper.png)
+
 ## Richtiger Anschluss und Gewinde eines Heizkörperventils ermitteln
 ...
 
