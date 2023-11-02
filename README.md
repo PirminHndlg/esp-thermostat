@@ -23,9 +23,11 @@ Der ESP erzeugt eine Website, über welche sich dann Einstellungen für das Ther
 
 ## Benötigte Materialien
 ### Bauteileliste
-- Wemos D1 Mini
+- Wemos D1 Mini [^1]
 - 28byj-48 Stepper Motor + Driver Modul (Standardmotor in Arduino Kits)
 - DHT11 oder DHT22 (geht aber auch ohne)
+
+[^1]: oder ähnlichen ESP8266, dann muss man das Case aber ggf. anpassen
 
 ### Werkzeug
 - Lötkolben
@@ -37,7 +39,14 @@ Der ESP erzeugt eine Website, über welche sich dann Einstellungen für das Ther
 - 3x M3 Schraube (25mm oder besser 30mm) + 3x M3 Mutter
 - Micro USB Kabel + Netzteil
 
-Natürlich benötigt man auch einen Laptop zum Flashen des ESPs
+Natürlich benötigt man auch einen Laptop zum Programmieren des ESPs
+
+### 3D Druck Dateien kaufen
+Da viele Leute keien 3D Drucker besitzen habe ich mich entschieden die gedruckten Teile selber auf [etsy](etsy.com) zu verkaufen. Dabei biete ich die Teile für den Filamentpreis an und habe kein Interesse daran große Gewinne zu machen.
+
+Allerdings besitze ich nur einen Prusa Mini, somit ist die Qualität der Drucke nicht die beste.
+
+Link zum Verkauf: [hier](etsy.com) - Link fehlt noch
 
 ## Zusammenbau
 Genaue Anweisung zum Zusammenbau im YouTube-Video [hier](youtube.com) - Link fehlt noch
