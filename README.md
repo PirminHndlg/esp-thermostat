@@ -41,7 +41,7 @@ Der ESP erzeugt eine Website, über welche sich dann Einstellungen für das Ther
 
 Natürlich benötigt man auch einen Laptop zum Programmieren des ESPs
 
-### 3D Druck Dateien kaufen
+## 3D Druck Dateien
 Da viele Leute keien 3D Drucker besitzen habe ich mich entschieden die gedruckten Teile selber auf [etsy](etsy.com) zu verkaufen. Dabei biete ich die Teile für den Filamentpreis an und habe kein Interesse daran große Gewinne zu machen.
 
 Allerdings besitze ich nur einen Prusa Mini, somit ist die Qualität der Drucke nicht die beste.
