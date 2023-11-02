@@ -15,6 +15,8 @@ Meine Idee ist, dass ich wie bei gekauften Smarten Thermostaten das bestehende T
 ![Temperatur im Raum mit dem Thermostat steuern - auch mit Zeitplan für die einzelnen Tage der Woche](/img/screenshot-main.png)
 ![Kalibrieren des Schrittmotors über die Webanwendung](/img/screenshot-stepper.png)
 
+<img src="/img/screenshot-stepper.png" width="45%"> <img src="/img/screenshot-main.png" width="45%">
+
 ## Richtiger Anschluss und Gewinde eines Heizkörperventils ermitteln
 ...
 
