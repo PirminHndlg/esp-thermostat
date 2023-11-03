@@ -47,8 +47,8 @@ Link zum Verkauf: [hier](etsy.com) - Link fehlt noch
 
 
 ## Richtiger Anschluss und Gewinde eines Heizkörperventils ermitteln
-<img src="/img/IMG_2659.jpeg" width="400px"> <img src="/img/IMG_2658.jpeg" width="400px">
-<img src="/img/IMG_2657.jpeg" width="400px"> <img src="/img/IMG_2654.jpeg" width="400px">
+<img src="/img/IMG_2659.jpeg" width="49%"> <img src="/img/IMG_2658.jpeg" width="49%">
+<img src="/img/IMG_2657.jpeg" width="49%"> <img src="/img/IMG_2654.jpeg" width="49%">
 
 #### Abmaße
 - Außendurchmesser Heizungsrohr: 30mm
