@@ -26,7 +26,7 @@ Der ESP erzeugt eine Website, über die sich Einstellungen für das Thermostat v
 
 [^1]: oder ähnlichen ESP8266, dann muss man das Case aber ggf. anpassen
 
-### Werkzeug
+### Werkzeuge
 - Lötkolben
 - Möglichst 3D Drucker (nicht zwingend notwendig, Kauf der Teile auch möglich)
 
@@ -38,7 +38,7 @@ Der ESP erzeugt eine Website, über die sich Einstellungen für das Thermostat v
 
 Natürlich benötigt man auch einen Laptop zum Programmieren des ESPs
 
-## 3D Druck Dateien
+## 3D-Druck-Dateien
 Da viele Leute keien 3D Drucker besitzen habe ich mich entschieden die gedruckten Teile selber auf [etsy](etsy.com) zu verkaufen. Dabei biete ich die Teile für den Filamentpreis an und habe kein Interesse daran große Gewinne zu machen.
 
 Allerdings besitze ich nur einen Prusa Mini, somit ist die Qualität der Drucke nicht die beste.
@@ -46,7 +46,7 @@ Allerdings besitze ich nur einen Prusa Mini, somit ist die Qualität der Drucke 
 Link zum Verkauf: [hier](etsy.com) - Link fehlt noch
 
 
-## Richtiger Anschluss und Gewinde eines Heizkörperventils ermitteln
+## Richtiger Anschluss und Gewinde des Heizkörperventils ermitteln
 <img src="/img/IMG_2659.jpeg" width="49%"> <img src="/img/IMG_2658.jpeg" width="49%">
 <img src="/img/IMG_2657.jpeg" width="49%"> <img src="/img/IMG_2654.jpeg" width="49%">
 
