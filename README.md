@@ -9,6 +9,10 @@ Das Ergebnis des Bauprozesses möchte ich hier veröffentlichen. Die Kosten für
 ## Konzeptidee
 Meine Idee ist, dass ich, wie bei gekauften smarten Thermostaten, das bestehende Thermostat ersetze. Allerdings nutze ich den Metall-Anschluss-Ring des originalen Thermostats zur Befestigung. Mit einem kleinen Schrittmotor und einem Wemos D1 Mini Mikrocontroller lässt sich der Bolzen der Heizung steuern, der beeinflusst, wie viel warmes Wasser in den Heizkörper fließt. Die Bewegung wird mit einer Schraube getätigt, die vom Motor gedreht wird und somit zur Heizung bzw von ihr weg bewegt wird.
 
+YouTube-Video zum Bauprozess [hier](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE) - Link fehlt noch
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
 
 ## Einstellungen auf lokaler Website
 <img src="/img/screenshot-main.png" width="50%"> <img src="/img/screenshot-stepper.png" width="49%">
