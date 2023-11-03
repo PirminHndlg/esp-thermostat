@@ -40,7 +40,7 @@ Der ESP erzeugt eine Website, über die sich Einstellungen für das Thermostat v
 - 3x M3 Schraube (25mm oder besser 30mm) + 3x M3 Mutter
 - Micro USB Kabel + Netzteil
 
-Natürlich benötigt man auch einen Laptop zum Programmieren des ESPs
+Natürlich benötigt man auch einen Laptop mit der [Arduino IDE](https://www.arduino.cc/en/software) zum Programmieren des ESPs
 
 ## 3D-Druck-Dateien
 Da viele Leute keien 3D Drucker besitzen habe ich mich entschieden die gedruckten Teile selber auf [etsy](etsy.com) zu verkaufen. Dabei biete ich die Teile für den Filamentpreis an und habe kein Interesse daran große Gewinne zu machen.
