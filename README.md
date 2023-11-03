@@ -13,6 +13,15 @@ YouTube-Video zum Bauprozess [hier](https://www.youtube.com/watch?v=YOUTUBE_VIDE
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
+### Vorteile
+- OpenSource
+- einfach umsetzbar
+- billig
+- 3D Drucker nicht zwingend notwenig
+
+### Nachteile
+- Thermostat braucht Stromversorgung über Kabel (Akku nicht gut möglich)
+- Raumtemperatur nicht am Thermostat steuerbar sondern nur über Website / Einbindung in SmartHome-App
 
 ## Einstellungen auf lokaler Website
 <img src="/img/screenshot-main.png" width="49%"> <img src="/img/screenshot-stepper.png" width="49%">
