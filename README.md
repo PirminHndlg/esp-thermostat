@@ -16,6 +16,7 @@ YouTube-Video zum Bauprozess [hier](https://www.youtube.com/watch?v=YOUTUBE_VIDE
 ### Vorteile
 - OpenSource
 - einfach umsetzbar
+- Raumtemperatur über Zeitplan steuerbar
 - billig
 - 3D Drucker nicht zwingend notwenig
 
