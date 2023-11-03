@@ -59,6 +59,8 @@ Link zum Verkauf: [hier](etsy.com) - Link fehlt noch
 
 Das sind die Maße von der Heizung, für die ich mein Thermostat gebaut habe. Ich weiß nicht, ob die Thermostat-Befestigungen genormt sind. Falls es bei dir die gleichen sind, sollten die 3D-Teile passen.
 
+<img src="/img/3d-holder.jpeg" width="250px">
+
 ## Zusammenbau
 Genaue Anweisung zum Zusammenbau im YouTube-Video [hier](youtube.com) - Link fehlt noch
 
