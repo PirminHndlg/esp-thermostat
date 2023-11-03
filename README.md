@@ -15,7 +15,7 @@ YouTube-Video zum Bauprozess [hier](https://www.youtube.com/watch?v=YOUTUBE_VIDE
 
 
 ## Einstellungen auf lokaler Website
-<img src="/img/screenshot-main.png" width="50%"> <img src="/img/screenshot-stepper.png" width="49%">
+<img src="/img/screenshot-main.png" width="49%"> <img src="/img/screenshot-stepper.png" width="49%">
 Der ESP erzeugt eine Website, über die sich Einstellungen für das Thermostat vornehmen lassen. Es ist möglich, einen Zeitplan zu erstellen oder die Zieltemperatur für den Raum einzustellen. Die Offsettemperatur des Temperatursensors ist dafür da, da es sein kann, dass die Temperatur direkt neben der Heizung höher ist als im restlichen Raum.
 
 ## Empfohlenes Vorwissen
