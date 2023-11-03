@@ -14,9 +14,6 @@ Meine Idee ist, dass ich wie bei gekauften Smarten Thermostaten das bestehende T
 <img src="/img/screenshot-main.png" width="50%"> <img src="/img/screenshot-stepper.png" width="49%">
 Der ESP erzeugt eine Website, über welche sich dann Einstellungen für das Thermostat vornehmen lassen. Es ist möglich einen Zeitplan zu erstellen oder die Zieltemperatur für den Raum einzustellen. Die Offsettemperatur des Temperatursensors ist dafür da, dass es sein kann, dass die Temperatur direkt neben der Heizung höher ist als im restlichen Raum.
 
-## Richtiger Anschluss und Gewinde eines Heizkörperventils ermitteln
-...
-
 ## Empfohlenes Vorwissen
 - Löten
 - Erfahrung mit Arduinos oder ESPs
@@ -47,6 +44,20 @@ Da viele Leute keien 3D Drucker besitzen habe ich mich entschieden die gedruckte
 Allerdings besitze ich nur einen Prusa Mini, somit ist die Qualität der Drucke nicht die beste.
 
 Link zum Verkauf: [hier](etsy.com) - Link fehlt noch
+
+
+## Richtiger Anschluss und Gewinde eines Heizkörperventils ermitteln
+<img src="/img/IMG_2659.jpeg" width="400px"> <img src="/img/IMG_2658.jpeg" width="400px">
+<img src="/img/IMG_2657.jpeg" width="400px"> <img src="/img/IMG_2654.jpeg" width="400px">
+
+#### Abmaße
+- Außendurchmesser Heizungsrohr: 30mm
+- Außendurchmesser Sechskant am Heizungsrohr: 15mm
+- Innendurchmesser Schraubring: 26,5mm (+/- 0,5mm)
+- Außendurchmesser Thermostatring: 28mm
+- Innendurchmesser Thermostatring: 20,5mm
+
+Das sind die Maße von der Heizung, für die ich mein Thermostat gebaut habe. Ich weiß nicht, ob die Thermostat-Befestigungen genormt sind. Falls es bei dir die gleichen sind, sollten die 3D-Teile passen.
 
 ## Zusammenbau
 Genaue Anweisung zum Zusammenbau im YouTube-Video [hier](youtube.com) - Link fehlt noch
